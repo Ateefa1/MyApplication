@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
           val rand = Random().nextInt(seekbar.progress)
             resultsTextView.text = rand.toString()
 
+            // this is my application
+
         }
 
 
